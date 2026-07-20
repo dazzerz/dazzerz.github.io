@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Data Science & Web Development Daffa Al Akhdaan. Analyzing data, Identifying trends, and Building web applications." />
+    <meta property="og:title" content="Portofolio - Daffa Al Akhdaan" />
+    <meta property="og:description" content="Portfolio Data Science & Web Development Daffa Al Akhdaan." />
     <title>Portofolio Data Science</title>
     <link href="src/output.css" rel="stylesheet" />
 </head>
@@ -92,7 +95,7 @@
             <!-- instagram -->
             <a
               href="https://instagram.com/daffakhdn" 
-              target=" blank" 
+              target="_blank" rel="noopener noreferrer" 
               class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
               <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +108,7 @@
 
             <!-- github -->
             <a href="https://github.com/dazzerz" 
-               target=" blank"
+               target="_blank" rel="noopener noreferrer"
                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                <svg role="img"  width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +121,7 @@
 
             <!-- Whatsapp -->
             <a href="https://wa.me/081289575462" 
-               target=" blank"
+               target="_blank" rel="noopener noreferrer"
                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                  >
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +134,7 @@
 
             <!-- Linkedin -->
             <a href="https://www.linkedin.com/in/daffa-al-akhdaan-16251625a/" 
-               target=" blank"
+               target="_blank" rel="noopener noreferrer"
                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                  >
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +157,7 @@
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
-            <h2 class="font-bold text-dark text-3x; mb-4">My Project</h2>
+            <h2 class="font-bold text-dark text-3xl mb-4">My Project</h2>
             <p class="font-medium text-md text-secondary">Machine Learning, Analysis Data, Visualization, High Accuracy Achiever </p>
           </div>
         </div>
@@ -228,6 +231,20 @@
             </div>
           </div>
 
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition duration-300">
+              <div class="w-full h-56 bg-slate-200 flex items-center justify-center text-slate-500 font-semibold text-xl">
+                Web Project Preview
+              </div>
+            <div>
+              <a href="#">
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3 hover:text-primary transition duration-300">Web Development in Antigravity</h3>
+              </a>
+              <p class="font-medium text-base text-secondary">A collection of web applications developed using the Antigravity IDE and various modern web frameworks. Focused on clean architecture, responsive design, and seamless user experience.</p>
+            </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -244,22 +261,22 @@
           </div>
         </div>
 
-        <form>
+        <form action="https://formspree.io/f/ganti_dengan_id_formspree_anda" method="POST">
           <div class="w-full lg:w-2/3 lg:mx-auto">
             <div class="w-full px-4">
               <label for="name" class="text-base text-primary font-bold">Nama</label>
-              <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md" />
+              <input type="text" id="name" name="name" class="w-full bg-slate-200 text-dark p-3 rounded-md" required />
             </div>
             <div class="w-full px-4">
               <label for="email" class="text-base text-primary font-bold">Email</label>
-              <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md" />
+              <input type="email" id="email" name="email" class="w-full bg-slate-200 text-dark p-3 rounded-md" required />
             </div>
             <div class="w-full px-4">
             <label for="message" class="text-base text-primary font-bold">Pesan</label>
-            <textarea type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md h-32"></textarea>
+            <textarea id="message" name="message" class="w-full bg-slate-200 text-dark p-3 rounded-md h-32" required></textarea>
           </div>
           <div class="w-full">
-            <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80
+            <button type="submit" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80
             hover:shadow-lg transition duration-500">Kirim</button>
             
           </div>
@@ -320,7 +337,7 @@
             <!-- instagram -->
             <a
               href="https://instagram.com/daffakhdn" 
-              target=" blank" 
+              target="_blank" rel="noopener noreferrer" 
               class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
               <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -333,7 +350,7 @@
 
             <!-- github -->
             <a href="https://github.com/dazzerz" 
-               target=" blank"
+               target="_blank" rel="noopener noreferrer"
                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                <svg role="img"  width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -346,7 +363,7 @@
 
             <!-- Whatsapp -->
             <a href="https://wa.me/081289575462" 
-               target=" blank"
+               target="_blank" rel="noopener noreferrer"
                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                  >
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -359,7 +376,7 @@
 
             <!-- Linkedin -->
             <a href="https://www.linkedin.com/in/daffa-al-akhdaan-16251625a/" 
-               target=" blank"
+               target="_blank" rel="noopener noreferrer"
                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                  >
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
